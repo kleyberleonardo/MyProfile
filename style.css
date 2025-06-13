@@ -1,0 +1,14 @@
+:root {
+    --cor0: #0DF205;
+    --cor1: #0ABF04;
+    --cor2: #078C03;
+    --cor3: #055902;
+    --cor4: #022601;
+    --cor5: #000000;
+
+    --fonte-padrao: "Roboto","Source Code Pro", monospace,sans-serif;
+}
+
+header{
+    background-color: #000000;
+}
