@@ -1,14 +1,46 @@
-:root {
-    --cor0: #0DF205;
-    --cor1: #0ABF04;
-    --cor2: #078C03;
-    --cor3: #055902;
-    --cor4: #022601;
-    --cor5: #000000;
-
-    --fonte-padrao: "Roboto","Source Code Pro", monospace,sans-serif;
+body{
+    width: 100%;
+    margin: 0;
+    background-color: black;
+    font-family: "Source Code Pro" , monospace;
 }
-
+/*HEADER LAYOUT*/
 header{
-    background-color: #ff0000;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+header img{
+    width: 100px;
+    float: left;
+    
+}
+header nav{
+    float: right;
+    margin-top: 25px;
+}
+header nav ul li{
+    list-style: none;
+    display: inline;
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+/*HEADER LAYOUT END*/
+/*BANNER*/
+.banner{
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.banner h1{
+    color: white;
+    font-size: 100px;
 }
