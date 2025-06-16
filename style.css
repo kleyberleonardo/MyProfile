@@ -45,9 +45,9 @@ header nav ul li a{
     font-family: "Roboto", sans-serif;
     border-right: 4px solid;
     white-space: nowrap;
-    width: 14ch;
+    width: 12ch;
     overflow: hidden;
-    animation: animatexto steps(14) 2s, animamarcador 0.5s linear infinite;
+    animation: animatexto steps(12) 2s, animamarcador 0.5s linear infinite;
 }
 
 @keyframes animamarcador{
@@ -75,10 +75,14 @@ header nav ul li a{
 }
 .eu{
     display: flex;
+    align-items: center;
     border: 10px;
     margin-right: auto;
-    width: 70%;
+    border: 1px solid #055902;
+    border-radius: 10px;
+    padding: 20px;
 }
+
 .eu p{
     font-size: 18px;
     color: white;
@@ -89,8 +93,7 @@ header nav ul li a{
     width: 350px;
     height: 200px ;
     border-radius: 50%;
-    border: 20px;
-    border-color: blue;
+    border: 2px solid #0DF205;
     float: left;
     margin-left: 20px;
 }
