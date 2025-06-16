@@ -69,22 +69,21 @@ header nav ul li a{
     font-family: "Roboto", sans-serif;
 }
 .eu{
-    display: inline;
+    background-color: aqua;
     border: 10px;
-    border-color: #0DF205;
     margin-left: auto;
     margin-right: auto;
     width: 70vh;
 }
 .eu p{
-    display: block;
+    display: inline-block;
     font-size: 18px;
     color: white;
     text-align: justify;
     float: right;
 }
 .eu img{
-    width: 120px;
+    width: 200px;
     border-radius: 50%;
     border: 5px,  #0DF205;
     float: left;
