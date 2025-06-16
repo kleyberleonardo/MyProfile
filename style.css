@@ -49,7 +49,7 @@ header nav ul li a{
     white-space: nowrap;
     width: 17ch;
     overflow: hidden;
-    animation: animatexto steps(17) 2s;
+    animation: animatexto steps(16) 2s, animamarcador 0.5s linear infinite;
 }
 
 @keyframes animamarcador{
