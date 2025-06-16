@@ -39,8 +39,27 @@ header nav ul li a{
     justify-content: center;
     align-items: center;
     display: flex;
+    animation: blinkmaker 0.5s infinite;
 }
 .banner h1{
     color: white;
     font-size: 100px;
+    font-family: "Roboto", sans-serif;
+    border-right: 4px solid;
+    white-space: nowrap;
+    width: 17ch;
+    overflow: hidden;
+    animation: animatexto steps(17) 2s;
+}
+
+@keyframes animamarcador{
+    50%{
+        border-right-color: transparent;
+    }
+}
+
+@keyframes animatexto{
+    0% {
+        width: 0;
+    }
 }
