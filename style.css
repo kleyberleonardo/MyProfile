@@ -47,7 +47,7 @@ header nav ul li a{
     white-space: nowrap;
     width: 17ch;
     overflow: hidden;
-    animation: animatexto steps(16) 2s, animamarcador 0.5s linear infinite;
+    animation: animatexto steps(13) 2s, animamarcador 0.5s linear infinite;
 }
 
 @keyframes animamarcador{
@@ -69,12 +69,13 @@ header nav ul li a{
     font-family: "Roboto", sans-serif;
 }
 .eu{
-    border: 4px;
+    border: 10px;
     border-color: #0DF205;
     margin-left: auto;
     margin-right: auto;
 }
 .eu p{
+    display: block;
     font-size: 18px;
     color: white;
     text-align: justify;
