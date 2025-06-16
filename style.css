@@ -71,10 +71,9 @@ header nav ul li a{
 .quemsou h1{
     text-align: center;
     color: white;
-    font-size: 42px;
+    font-size: 58px;
 }
 .eu{
-    align-items: center;
     display: flex;
     border: 10px;
     margin-right: auto;
@@ -90,6 +89,8 @@ header nav ul li a{
     width: 350px;
     height: 200px ;
     border-radius: 50%;
-    border: 5px,  #0DF205;
+    border: 20px;
+    border-color: blue;
     float: left;
+    margin-left: 20px;
 }
