@@ -67,27 +67,34 @@ header nav ul li a{
 .quemsou{
     background-color: black;
     font-family: "Roboto", sans-serif;
+    margin-top: 30px;
 }
 .quemsou h1{
     text-align: center;
     color: white;
     font-size: 58px;
 }
+
+/*INFO EU*/
 .eu{
     display: flex;
     align-items: center;
-    border: 10px;
+    max-width: 95%;
     margin-right: auto;
-    border: 1px solid #055902;
+    margin-left: auto;
+    border: 1px solid #0DF205;
     border-radius: 10px;
     padding: 20px;
+    margin-bottom: 20px;
+    
 }
 
 .eu p{
     font-size: 18px;
     color: white;
-    text-align: justify;
+    text-align: left;
     float: right;
+    margin: 30px;
 }
 .eu img{
     width: 350px;
@@ -96,4 +103,76 @@ header nav ul li a{
     border: 2px solid #0DF205;
     float: left;
     margin-left: 20px;
+}
+/*INFO HOBBIES*/
+
+.hobbies{
+    display: flex;
+    align-items: center;
+    max-width: 95%;
+    border: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #0DF205;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.hobbies p{
+    font-size: 18px;
+    color: white;
+    text-align: right;
+    float: left;
+    margin: 30px;
+}
+.hobbies img{
+    width: 350px;
+    height: 200px ;
+    border-radius: 50%;
+    border: 2px solid #0DF205;
+    float: right;
+    margin-right: 20px;
+}
+.objetivos{
+    display: flex;
+    align-items: center;
+    max-width: 95%;
+    border: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #0DF205;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.objetivos p{
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    float: left;
+    margin: 30px;
+}
+.objetivos img{
+    width: 350px;
+    height: 200px ;
+    border-radius: 50%;
+    border: 2px solid #0DF205;
+    float: right;
+    margin-right: 20px;
+}
+/*SECTION "HABILIDADES"*/
+
+.habilidades{
+   display: flex;
+    align-items: center;
+    max-width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #0DF205;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+   
 }
