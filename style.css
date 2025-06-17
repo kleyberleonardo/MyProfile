@@ -69,10 +69,12 @@ header nav ul li a{
     font-family: "Roboto", sans-serif;
     margin-top: 30px;
 }
-.quemsou h1{
+.title {
     text-align: center;
     color: white;
     font-size: 58px;
+    font-family: "Roboto", sans-serif;
+    
 }
 
 /*INFO EU*/
@@ -165,7 +167,7 @@ header nav ul li a{
 /*SECTION "HABILIDADES"*/
 
 .habilidades{
-   display: flex;
+    justify-content: center;
     align-items: center;
     max-width: 95%;
     margin-right: auto;
@@ -174,5 +176,16 @@ header nav ul li a{
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
-   
+    background-image: url(images/background.jpg);
+    background-size: cover;
+
+}
+
+.habilidades img{
+    width: 200px;
+    height: 210px;
+    display: inline-block;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
 }
