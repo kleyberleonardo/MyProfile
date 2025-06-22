@@ -33,7 +33,8 @@ header nav ul li a{
 .banner{
     background-image: url(images/banner.jpg);
     background-size: cover;
-    height: 400px;
+    width: 100%;
+    height: 600px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -68,6 +69,8 @@ header nav ul li a{
     background-color: black;
     font-family: "Roboto", sans-serif;
     margin-top: 30px;
+    align-items: center;
+    justify-content: center;
 }
 .title {
     text-align: center;
@@ -81,9 +84,9 @@ header nav ul li a{
 .eu{
     display: flex;
     align-items: center;
-    max-width: 95%;
+    width: 900px;
     margin-right: auto;
-    margin-left: auto;
+    ;
     border: 1px solid #0DF205;
     border-radius: 10px;
     padding: 20px;
@@ -111,9 +114,9 @@ header nav ul li a{
 .hobbies{
     display: flex;
     align-items: center;
-    max-width: 95%;
+    width: 900px;
     border: 10px;
-    margin-right: auto;
+    
     margin-left: auto;
     border: 1px solid #0DF205;
     border-radius: 10px;
@@ -139,10 +142,10 @@ header nav ul li a{
 .objetivos{
     display: flex;
     align-items: center;
-    max-width: 95%;
+    width: 900px;
     border: 10px;
     margin-right: auto;
-    margin-left: auto;
+    
     border: 1px solid #0DF205;
     border-radius: 10px;
     padding: 20px;
